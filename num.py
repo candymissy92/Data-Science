@@ -1,15 +1,11 @@
 
-
-numbers = [1, 2, 3, 4, 5, 6]
-
-
-result = [x + x for x in numbers]  
+my_list = [1, 2, 3, 4, 5]
 
 
-final_result = [x + x for x in result]
+first_element = my_list[0]
 
+print(first_element)
 
-print(final_result)
 
 
 
