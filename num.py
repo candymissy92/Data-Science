@@ -1,19 +1,15 @@
 
-matrix = [
-    [1, 2, 3],
-    [4, 5, 6]
-]
+
+numbers = [1, 2, 3, 4, 5, 6]
 
 
-column_sum = [matrix[0][i] + matrix[1][i] for i in range(len(matrix[0]))]
+result = [x + x for x in numbers]  
 
 
-print("Matrix:")
-for row in matrix:
-    print(row)
+final_result = [x + x for x in result]
 
 
-print("\nSum of each element (column-wise):", column_sum)
+print(final_result)
 
 
 
