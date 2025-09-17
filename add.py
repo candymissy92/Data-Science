@@ -1,9 +1,11 @@
+import numpy as np
 
-numbers = [1, 2, 3, 4, 5, 6]
+
+numbers = np.array([1, 2, 3, 4, 5, 6])
 
 
-result = [x + x for x in numbers]
-
+result = numbers + numbers
 
 print(result)
+
 
