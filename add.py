@@ -1,14 +1,12 @@
 
+
+
+
+
+
+
+
 import numpy as np
 
-
-arr = np.array([1, 6, 12, 8, 3, 2])
-
-
-squared_arr = arr ** 2
-
-print(squared_arr)
-
-
-
-
+arr = np.array([[1, 2, 3], [4, 5, 6]])
+print(arr[0, 1])   
