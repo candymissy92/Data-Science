@@ -1,6 +1,3 @@
-# ===============================
-# Online Shopping App using OOP
-# ===============================
 
 class Product:
     def __init__(self, pid, name, price, stock):
